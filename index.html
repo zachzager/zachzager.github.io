@@ -1,40 +1,20 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
-		<title>Zach Zager's Website</title>
-		<link rel="stylesheet" type="text/css" href="style_zz.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.4.3/custom/phaser-arcade-physics.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.4.3/phaser.min.js"></script>
+		<script src="game.js"></script>
+		<script src="player.js"></script>
+		<script src="wall.js"></script>
+		<script src="access.js"></script>
+		<script src="lava.js"></script>
+		<script src="bitcoin.js"></script>
+		<script src="projectile.js"></script>
+		<script src="cache.js"></script>
+		<script src="enemy.js"></script>
+		<script src="pause.js"></script>
 	</head>
-	<body>
-		<div class='header'>
-			<h1><a href='index.html'>Zach Zager's Website</a></h1>
-		</div>
-
-		<!-- Main Content -->
-		<div class='content'>
-			<ul>
-				<h2><a href="resume_zz.html">View my Resume</a></h2>
-				<h2><a href="projects_zz.html">Projects</a>
-				<h2><a href="photos_zz.html">Photos</a></h2>
-				<h2><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#122;&#97;&#99;&#104;&#122;&#97;&#103;&#101;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">Send me an email</a></h2>
-				        <!--  ^^^ This keeps spambots from finding your email address, you can read more about it here (method 5) http://perso.crans.org/~raffo/email-munging.php -->
-			</ul>
-		</div>
-
-		<!-- Picture -->
-		<div>
-			<img id="prof_pic" src="zz_prof_pic_IL.jpg"/>
-		</div>
-
-		<!-- Social Media Plug -->
-		<div class='content'>
-			<ul>
-				<h1>Check me out on social media:</h1>
-				<h2 class='social_content'><a href='https://www.facebook.com/zach.zager'>Facebook</a></h2>
-				<h2 class='social_content'><a href='https://twitter.com/zachzager'>Twitter</a></h2>
-				<h2 class='social_content'><a href='https://www.linkedin.com/profile/view?id=401253574&trk=hp-identity-name'> LinkedIn</a></h2>
-			</ul>
-		</div>
-
-	</body>
+		<body>
+			<div id="game"></div>
+		</body>
 </html>
