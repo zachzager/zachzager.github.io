@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+
+* {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: 'Georgia', 'Times', 'Calibri', 'Arial', monospace;
+    width: 100%;
+    height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #0003EF;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px; 
+	color: #030303;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-left: 15px; 
+    width: 100%;
+    height: 100%;
+}
+
+a:link {
+	color:#030303;
+	text-decoration: none; 
+}
+a:visited {
+	color:#030303;	
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+	color: #0ABEF2;
+}
+
+.content {
+	margin: auto;
+	background-color: #CCFFFF;
+	padding: 1%;
+}
+
+.content h4 {
+	font-size: 20pt;
+	font-style: normal;
+}
+
+.header {
+	display: inline;
+	margin-left: 2%;
+}
+
+.header h1 a {
+	color: #99FF99;
+	font-size: 80px;
+}
+
+.header a:hover {
+	color: #FF6600;
+	background-color: #99FF99;
+}
+
+.header h2 a {
+	color: #0ABEF2;
+}
+
+li a:link {
+	color: #00005C;
+}
+
+li a:hover {
+	color: #0ABEF2;
+	background-color: red;
+}
