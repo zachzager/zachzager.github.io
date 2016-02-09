@@ -61,6 +61,14 @@ a:hover, a:active, a:focus {
 	background-color: #99FF99;
 }
 
+.header h2 {
+	border-style: dotted;
+	border-width: medium;
+	margin-left: 4%;
+	margin-right: 20%;
+	padding-bottom: 3px;
+}
+
 .header h2 a {
 	color: #0ABEF2;
 }
