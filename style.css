@@ -34,7 +34,7 @@ img {
 }
 
 a:link {
-	color:#030303;
+	color:#0003EF;
 	text-decoration: none; 
 }
 a:visited {
@@ -44,17 +44,6 @@ a:visited {
 a:hover, a:active, a:focus { 
 	text-decoration: none;
 	color: #0003EF;
-}
-
-.content {
-	margin: auto;
-	background-color: #CCFFFF;
-	padding: 1%;
-}
-
-.content h4 {
-	font-size: 20pt;
-	font-style: normal;
 }
 
 .header {
@@ -76,11 +65,22 @@ a:hover, a:active, a:focus {
 	color: #0ABEF2;
 }
 
-li a:link {
-	color: #0ABEF2;
+.content {
+	margin: auto;
+	background-color: #CCFFFF;
+	padding: 1%;
 }
 
-li a:hover {
-	color: #0ABEF2;
-	background-color: red;
+.content h4 {
+	font-size: 20pt;
+	font-style: normal;
+}
+
+.content h4 a:link {
+	text-decoration: underline;
+}
+
+.content h4 a:hover {
+	color: #CCFFFF;
+	background-color: #030303;
 }
