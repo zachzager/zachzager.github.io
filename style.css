@@ -16,10 +16,18 @@
 	font-size: 50px;
 }
 
+.main-page-content {
+    text-align: center;
+}
+
 @media screen and (max-width: 450px) {
 	.navbar-brand {
 		font-size: 30px;
 	}
+
+    .main-page-content h3 {
+        font-size: 50px;
+    }
 }
 
 body {
@@ -52,10 +60,6 @@ p {
     line-height: 28px;
     margin-bottom: 25px;
     font-size: 16px;
-}
-
-.main-page-content {
-	text-align: center;
 }
 
 img {
